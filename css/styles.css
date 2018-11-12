@@ -5,19 +5,26 @@
 
 body {
   background: #fcc;
-} 
+}
 
+a:hover {
+  background-color: #7AFF33;
+}
 
+nav {
+display: flex;
+flex-direction: column;
+}
 
 /* TABLET STYLES */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 
   /* applies to screens wider than 499px */
-  
+
   body {
     background: #cfc;
-  } 
+  }
 }
 
 
@@ -30,5 +37,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
